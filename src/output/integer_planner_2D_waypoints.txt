@@ -1,0 +1,1567 @@
+Problem:    integer_planner_2D_waypoints
+Rows:       665
+Columns:    177 (40 integer, 40 binary)
+Non-zeros:  1453
+Status:     INTEGER OPTIMAL
+Objective:  time_consumption = 24.09240844 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 time_consumption
+                             24.0924                             
+     2 initpos[1]                  0            -0             = 
+     3 initpos[2]                  0            -0             = 
+     4 initvel[1]                  1             1             = 
+     5 initvel[2]                  0            -0             = 
+     6 kinematics[1,1]
+                                   0            -0             = 
+     7 kinematics[1,2]
+                                   0            -0             = 
+     8 kinematics[1,3]
+                                   0            -0             = 
+     9 kinematics[1,4]
+                                   0            -0             = 
+    10 kinematics[1,5]
+                                   0            -0             = 
+    11 kinematics[1,6]
+                                   0            -0             = 
+    12 kinematics[1,7]
+                                   0            -0             = 
+    13 kinematics[1,8]
+                                   0            -0             = 
+    14 kinematics[1,9]
+                                   0            -0             = 
+    15 kinematics[1,10]
+                                   0            -0             = 
+    16 kinematics[1,11]
+                                   0            -0             = 
+    17 kinematics[1,12]
+                                   0            -0             = 
+    18 kinematics[1,13]
+                                   0            -0             = 
+    19 kinematics[1,14]
+                                   0            -0             = 
+    20 kinematics[1,15]
+                                   0            -0             = 
+    21 kinematics[1,16]
+                                   0            -0             = 
+    22 kinematics[1,17]
+                                   0            -0             = 
+    23 kinematics[1,18]
+                                   0            -0             = 
+    24 kinematics[1,19]
+                                   0            -0             = 
+    25 kinematics[2,1]
+                                   0            -0             = 
+    26 kinematics[2,2]
+                                   0            -0             = 
+    27 kinematics[2,3]
+                                   0            -0             = 
+    28 kinematics[2,4]
+                                   0            -0             = 
+    29 kinematics[2,5]
+                                   0            -0             = 
+    30 kinematics[2,6]
+                                   0            -0             = 
+    31 kinematics[2,7]
+                                   0            -0             = 
+    32 kinematics[2,8]
+                                   0            -0             = 
+    33 kinematics[2,9]
+                                   0            -0             = 
+    34 kinematics[2,10]
+                                   0            -0             = 
+    35 kinematics[2,11]
+                                   0            -0             = 
+    36 kinematics[2,12]
+                                   0            -0             = 
+    37 kinematics[2,13]
+                                   0            -0             = 
+    38 kinematics[2,14]
+                                   0            -0             = 
+    39 kinematics[2,15]
+                                   0            -0             = 
+    40 kinematics[2,16]
+                                   0            -0             = 
+    41 kinematics[2,17]
+                                   0            -0             = 
+    42 kinematics[2,18]
+                                   0            -0             = 
+    43 kinematics[2,19]
+                                   0            -0             = 
+    44 dynamics[1,1]
+                                   0            -0             = 
+    45 dynamics[1,2]
+                                   0            -0             = 
+    46 dynamics[1,3]
+                                   0            -0             = 
+    47 dynamics[1,4]
+                                   0            -0             = 
+    48 dynamics[1,5]
+                                   0            -0             = 
+    49 dynamics[1,6]
+                                   0            -0             = 
+    50 dynamics[1,7]
+                                   0            -0             = 
+    51 dynamics[1,8]
+                                   0            -0             = 
+    52 dynamics[1,9]
+                                   0            -0             = 
+    53 dynamics[1,10]
+                                   0            -0             = 
+    54 dynamics[1,11]
+                                   0            -0             = 
+    55 dynamics[1,12]
+                                   0            -0             = 
+    56 dynamics[1,13]
+                                   0            -0             = 
+    57 dynamics[1,14]
+                                   0            -0             = 
+    58 dynamics[1,15]
+                                   0            -0             = 
+    59 dynamics[1,16]
+                                   0            -0             = 
+    60 dynamics[1,17]
+                                   0            -0             = 
+    61 dynamics[1,18]
+                                   0            -0             = 
+    62 dynamics[1,19]
+                                   0            -0             = 
+    63 dynamics[2,1]
+                                   0            -0             = 
+    64 dynamics[2,2]
+                                   0            -0             = 
+    65 dynamics[2,3]
+                                   0            -0             = 
+    66 dynamics[2,4]
+                                   0            -0             = 
+    67 dynamics[2,5]
+                                   0            -0             = 
+    68 dynamics[2,6]
+                                   0            -0             = 
+    69 dynamics[2,7]
+                                   0            -0             = 
+    70 dynamics[2,8]
+                                   0            -0             = 
+    71 dynamics[2,9]
+                                   0            -0             = 
+    72 dynamics[2,10]
+                                   0            -0             = 
+    73 dynamics[2,11]
+                                   0            -0             = 
+    74 dynamics[2,12]
+                                   0            -0             = 
+    75 dynamics[2,13]
+                                   0            -0             = 
+    76 dynamics[2,14]
+                                   0            -0             = 
+    77 dynamics[2,15]
+                                   0            -0             = 
+    78 dynamics[2,16]
+                                   0            -0             = 
+    79 dynamics[2,17]
+                                   0            -0             = 
+    80 dynamics[2,18]
+                                   0            -0             = 
+    81 dynamics[2,19]
+                                   0            -0             = 
+    82 position_cst_min[1,1]
+                                   0            -2               
+    83 position_cst_min[1,2]
+                            0.434117            -2               
+    84 position_cst_min[1,3]
+                             0.73985            -2               
+    85 position_cst_min[1,4]
+                            0.920584            -2               
+    86 position_cst_min[1,5]
+                            0.976317            -2               
+    87 position_cst_min[1,6]
+                            0.914301            -2               
+    88 position_cst_min[1,7]
+                            0.797034            -2               
+    89 position_cst_min[1,8]
+                            0.804767            -2               
+    90 position_cst_min[1,9]
+                                   1            -2               
+    91 position_cst_min[1,10]
+                             1.35758            -2               
+    92 position_cst_min[1,11]
+                              1.8775            -2               
+    93 position_cst_min[1,12]
+                             2.52242            -2               
+    94 position_cst_min[1,13]
+                             3.29233            -2               
+    95 position_cst_min[1,14]
+                             4.13903            -2               
+    96 position_cst_min[1,15]
+                                   5            -2               
+    97 position_cst_min[1,16]
+                             5.86097            -2               
+    98 position_cst_min[1,17]
+                             6.72194            -2               
+    99 position_cst_min[1,18]
+                             7.58291            -2               
+   100 position_cst_min[1,19]
+                             8.44388            -2               
+   101 position_cst_min[1,20]
+                             9.30485            -2               
+   102 position_cst_min[2,1]
+                                   0            -2               
+   103 position_cst_min[2,2]
+                            0.102393            -2               
+   104 position_cst_min[2,3]
+                            0.415433            -2               
+   105 position_cst_min[2,4]
+                            0.944979            -2               
+   106 position_cst_min[2,5]
+                             1.69103            -2               
+   107 position_cst_min[2,6]
+                             2.54534            -2               
+   108 position_cst_min[2,7]
+                             3.39964            -2               
+   109 position_cst_min[2,8]
+                             4.25395            -2               
+   110 position_cst_min[2,9]
+                                   5            -2               
+   111 position_cst_min[2,10]
+                             5.59423            -2               
+   112 position_cst_min[2,11]
+                             6.03663            -2               
+   113 position_cst_min[2,12]
+                             6.26252            -2               
+   114 position_cst_min[2,13]
+                             6.27191            -2               
+   115 position_cst_min[2,14]
+                             6.14832            -2               
+   116 position_cst_min[2,15]
+                                   6            -2               
+   117 position_cst_min[2,16]
+                             5.85168            -2               
+   118 position_cst_min[2,17]
+                             5.70337            -2               
+   119 position_cst_min[2,18]
+                             5.55505            -2               
+   120 position_cst_min[2,19]
+                             5.40673            -2               
+   121 position_cst_min[2,20]
+                             5.25842            -2               
+   122 position_cst_max[1,1]
+                                   0                          10 
+   123 position_cst_max[1,2]
+                            0.434117                          10 
+   124 position_cst_max[1,3]
+                             0.73985                          10 
+   125 position_cst_max[1,4]
+                            0.920584                          10 
+   126 position_cst_max[1,5]
+                            0.976317                          10 
+   127 position_cst_max[1,6]
+                            0.914301                          10 
+   128 position_cst_max[1,7]
+                            0.797034                          10 
+   129 position_cst_max[1,8]
+                            0.804767                          10 
+   130 position_cst_max[1,9]
+                                   1                          10 
+   131 position_cst_max[1,10]
+                             1.35758                          10 
+   132 position_cst_max[1,11]
+                              1.8775                          10 
+   133 position_cst_max[1,12]
+                             2.52242                          10 
+   134 position_cst_max[1,13]
+                             3.29233                          10 
+   135 position_cst_max[1,14]
+                             4.13903                          10 
+   136 position_cst_max[1,15]
+                                   5                          10 
+   137 position_cst_max[1,16]
+                             5.86097                          10 
+   138 position_cst_max[1,17]
+                             6.72194                          10 
+   139 position_cst_max[1,18]
+                             7.58291                          10 
+   140 position_cst_max[1,19]
+                             8.44388                          10 
+   141 position_cst_max[1,20]
+                             9.30485                          10 
+   142 position_cst_max[2,1]
+                                   0                          10 
+   143 position_cst_max[2,2]
+                            0.102393                          10 
+   144 position_cst_max[2,3]
+                            0.415433                          10 
+   145 position_cst_max[2,4]
+                            0.944979                          10 
+   146 position_cst_max[2,5]
+                             1.69103                          10 
+   147 position_cst_max[2,6]
+                             2.54534                          10 
+   148 position_cst_max[2,7]
+                             3.39964                          10 
+   149 position_cst_max[2,8]
+                             4.25395                          10 
+   150 position_cst_max[2,9]
+                                   5                          10 
+   151 position_cst_max[2,10]
+                             5.59423                          10 
+   152 position_cst_max[2,11]
+                             6.03663                          10 
+   153 position_cst_max[2,12]
+                             6.26252                          10 
+   154 position_cst_max[2,13]
+                             6.27191                          10 
+   155 position_cst_max[2,14]
+                             6.14832                          10 
+   156 position_cst_max[2,15]
+                                   6                          10 
+   157 position_cst_max[2,16]
+                             5.85168                          10 
+   158 position_cst_max[2,17]
+                             5.70337                          10 
+   159 position_cst_max[2,18]
+                             5.55505                          10 
+   160 position_cst_max[2,19]
+                             5.40673                          10 
+   161 position_cst_max[2,20]
+                             5.25842                          10 
+   162 velocity_cst[1,1]
+                            0.866025                     1.73205 
+   163 velocity_cst[1,2]
+                            0.866025                     1.73205 
+   164 velocity_cst[1,3]
+                                   0                     1.73205 
+   165 velocity_cst[1,4]
+                           -0.866025                     1.73205 
+   166 velocity_cst[1,5]
+                           -0.866025                     1.73205 
+   167 velocity_cst[1,6]
+                                   0                     1.73205 
+   168 velocity_cst[2,1]
+                            0.842586                     1.73205 
+   169 velocity_cst[2,2]
+                            0.433013                     1.73205 
+   170 velocity_cst[2,3]
+                           -0.409573                     1.73205 
+   171 velocity_cst[2,4]
+                           -0.842586                     1.73205 
+   172 velocity_cst[2,5]
+                           -0.433013                     1.73205 
+   173 velocity_cst[2,6]
+                            0.409573                     1.73205 
+   174 velocity_cst[3,1]
+                            0.842586                     1.73205 
+   175 velocity_cst[3,2]
+                                   0                     1.73205 
+   176 velocity_cst[3,3]
+                           -0.842586                     1.73205 
+   177 velocity_cst[3,4]
+                           -0.842586                     1.73205 
+   178 velocity_cst[3,5]
+                                   0                     1.73205 
+   179 velocity_cst[3,6]
+                            0.842586                     1.73205 
+   180 velocity_cst[4,1]
+                            0.842586                     1.73205 
+   181 velocity_cst[4,2]
+                           -0.433013                     1.73205 
+   182 velocity_cst[4,3]
+                             -1.2756                     1.73205 
+   183 velocity_cst[4,4]
+                           -0.842586                     1.73205 
+   184 velocity_cst[4,5]
+                            0.433013                     1.73205 
+   185 velocity_cst[4,6]
+                              1.2756                     1.73205 
+   186 velocity_cst[5,1]
+                            0.842586                     1.73205 
+   187 velocity_cst[5,2]
+                           -0.866025                     1.73205 
+   188 velocity_cst[5,3]
+                            -1.70861                     1.73205 
+   189 velocity_cst[5,4]
+                           -0.842586                     1.73205 
+   190 velocity_cst[5,5]
+                            0.866025                     1.73205 
+   191 velocity_cst[5,6]
+                             1.70861                     1.73205 
+   192 velocity_cst[6,1]
+                            0.651193                     1.73205 
+   193 velocity_cst[6,2]
+                            -1.05742                     1.73205 
+   194 velocity_cst[6,3]
+                            -1.70861                     1.73205 
+   195 velocity_cst[6,4]
+                           -0.651193                     1.73205 
+   196 velocity_cst[6,5]
+                             1.05742                     1.73205 
+   197 velocity_cst[6,6]
+                             1.70861                     1.73205 
+   198 velocity_cst[7,1]
+                            0.651193                     1.73205 
+   199 velocity_cst[7,2]
+                            -1.05742                     1.73205 
+   200 velocity_cst[7,3]
+                            -1.70861                     1.73205 
+   201 velocity_cst[7,4]
+                           -0.651193                     1.73205 
+   202 velocity_cst[7,5]
+                             1.05742                     1.73205 
+   203 velocity_cst[7,6]
+                             1.70861                     1.73205 
+   204 velocity_cst[8,1]
+                             1.08421                     1.73205 
+   205 velocity_cst[8,2]
+                           -0.624405                     1.73205 
+   206 velocity_cst[8,3]
+                            -1.70861                     1.73205 
+   207 velocity_cst[8,4]
+                            -1.08421                     1.73205 
+   208 velocity_cst[8,5]
+                            0.624405                     1.73205 
+   209 velocity_cst[8,6]
+                             1.70861                     1.73205 
+   210 velocity_cst[9,1]
+                             1.08421                     1.73205 
+   211 velocity_cst[9,2]
+                           -0.191392                     1.73205 
+   212 velocity_cst[9,3]
+                             -1.2756                     1.73205 
+   213 velocity_cst[9,4]
+                            -1.08421                     1.73205 
+   214 velocity_cst[9,5]
+                            0.191392                     1.73205 
+   215 velocity_cst[9,6]
+                              1.2756                     1.73205 
+   216 velocity_cst[10,1]
+                             1.34293                     1.73205 
+   217 velocity_cst[10,2]
+                             0.24162                     1.73205 
+   218 velocity_cst[10,3]
+                            -1.10131                     1.73205 
+   219 velocity_cst[10,4]
+                            -1.34293                     1.73205 
+   220 velocity_cst[10,5]
+                            -0.24162                     1.73205 
+   221 velocity_cst[10,6]
+                             1.10131                     1.73205 
+   222 velocity_cst[11,1]
+                             1.34293                     1.73205 
+   223 velocity_cst[11,2]
+                            0.674633                     1.73205 
+   224 velocity_cst[11,3]
+                           -0.668294                     1.73205 
+   225 velocity_cst[11,4]
+                            -1.34293                     1.73205 
+   226 velocity_cst[11,5]
+                           -0.674633                     1.73205 
+   227 velocity_cst[11,6]
+                            0.668294                     1.73205 
+   228 velocity_cst[12,1]
+                             1.34293                     1.73205 
+   229 velocity_cst[12,2]
+                             1.10765                     1.73205 
+   230 velocity_cst[12,3]
+                           -0.235281                     1.73205 
+   231 velocity_cst[12,4]
+                            -1.34293                     1.73205 
+   232 velocity_cst[12,5]
+                            -1.10765                     1.73205 
+   233 velocity_cst[12,6]
+                            0.235281                     1.73205 
+   234 velocity_cst[13,1]
+                             1.34293                     1.73205 
+   235 velocity_cst[13,2]
+                             1.54066                     1.73205 
+   236 velocity_cst[13,3]
+                            0.197731                     1.73205 
+   237 velocity_cst[13,4]
+                            -1.34293                     1.73205 
+   238 velocity_cst[13,5]
+                            -1.54066                     1.73205 
+   239 velocity_cst[13,6]
+                           -0.197731                     1.73205 
+   240 velocity_cst[14,1]
+                             1.34293                     1.73205 
+   241 velocity_cst[14,2]
+                             1.63956                     1.73205 
+   242 velocity_cst[14,3]
+                            0.296634                     1.73205 
+   243 velocity_cst[14,4]
+                            -1.34293                     1.73205 
+   244 velocity_cst[14,5]
+                            -1.63956                     1.73205 
+   245 velocity_cst[14,6]
+                           -0.296634                     1.73205 
+   246 velocity_cst[15,1]
+                             1.34293                     1.73205 
+   247 velocity_cst[15,2]
+                             1.63956                     1.73205 
+   248 velocity_cst[15,3]
+                            0.296634                     1.73205 
+   249 velocity_cst[15,4]
+                            -1.34293                     1.73205 
+   250 velocity_cst[15,5]
+                            -1.63956                     1.73205 
+   251 velocity_cst[15,6]
+                           -0.296634                     1.73205 
+   252 velocity_cst[16,1]
+                             1.34293                     1.73205 
+   253 velocity_cst[16,2]
+                             1.63956                     1.73205 
+   254 velocity_cst[16,3]
+                            0.296634                     1.73205 
+   255 velocity_cst[16,4]
+                            -1.34293                     1.73205 
+   256 velocity_cst[16,5]
+                            -1.63956                     1.73205 
+   257 velocity_cst[16,6]
+                           -0.296634                     1.73205 
+   258 velocity_cst[17,1]
+                             1.34293                     1.73205 
+   259 velocity_cst[17,2]
+                             1.63956                     1.73205 
+   260 velocity_cst[17,3]
+                            0.296634                     1.73205 
+   261 velocity_cst[17,4]
+                            -1.34293                     1.73205 
+   262 velocity_cst[17,5]
+                            -1.63956                     1.73205 
+   263 velocity_cst[17,6]
+                           -0.296634                     1.73205 
+   264 velocity_cst[18,1]
+                             1.34293                     1.73205 
+   265 velocity_cst[18,2]
+                             1.63956                     1.73205 
+   266 velocity_cst[18,3]
+                            0.296634                     1.73205 
+   267 velocity_cst[18,4]
+                            -1.34293                     1.73205 
+   268 velocity_cst[18,5]
+                            -1.63956                     1.73205 
+   269 velocity_cst[18,6]
+                           -0.296634                     1.73205 
+   270 velocity_cst[19,1]
+                             1.34293                     1.73205 
+   271 velocity_cst[19,2]
+                             1.63956                     1.73205 
+   272 velocity_cst[19,3]
+                            0.296634                     1.73205 
+   273 velocity_cst[19,4]
+                            -1.34293                     1.73205 
+   274 velocity_cst[19,5]
+                            -1.63956                     1.73205 
+   275 velocity_cst[19,6]
+                           -0.296634                     1.73205 
+   276 accelerate_cst[1,1]
+                          -0.0468796                    0.866025 
+   277 accelerate_cst[1,2]
+                           -0.866025                    0.866025 
+   278 accelerate_cst[1,3]
+                           -0.819146                    0.866025 
+   279 accelerate_cst[1,4]
+                           0.0468796                    0.866025 
+   280 accelerate_cst[1,5]
+                            0.866025                    0.866025 
+   281 accelerate_cst[1,6]
+                            0.819146                    0.866025 
+   282 accelerate_cst[2,1]
+                                   0                    0.866025 
+   283 accelerate_cst[2,2]
+                           -0.866025                    0.866025 
+   284 accelerate_cst[2,3]
+                           -0.866025                    0.866025 
+   285 accelerate_cst[2,4]
+                                   0                    0.866025 
+   286 accelerate_cst[2,5]
+                            0.866025                    0.866025 
+   287 accelerate_cst[2,6]
+                            0.866025                    0.866025 
+   288 accelerate_cst[3,1]
+                                   0                    0.866025 
+   289 accelerate_cst[3,2]
+                           -0.866025                    0.866025 
+   290 accelerate_cst[3,3]
+                           -0.866025                    0.866025 
+   291 accelerate_cst[3,4]
+                                   0                    0.866025 
+   292 accelerate_cst[3,5]
+                            0.866025                    0.866025 
+   293 accelerate_cst[3,6]
+                            0.866025                    0.866025 
+   294 accelerate_cst[4,1]
+                                   0                    0.866025 
+   295 accelerate_cst[4,2]
+                           -0.866025                    0.866025 
+   296 accelerate_cst[4,3]
+                           -0.866025                    0.866025 
+   297 accelerate_cst[4,4]
+                                   0                    0.866025 
+   298 accelerate_cst[4,5]
+                            0.866025                    0.866025 
+   299 accelerate_cst[4,6]
+                            0.866025                    0.866025 
+   300 accelerate_cst[5,1]
+                           -0.382785                    0.866025 
+   301 accelerate_cst[5,2]
+                           -0.382785                    0.866025 
+   302 accelerate_cst[5,3]
+                                   0                    0.866025 
+   303 accelerate_cst[5,4]
+                            0.382785                    0.866025 
+   304 accelerate_cst[5,5]
+                            0.382785                    0.866025 
+   305 accelerate_cst[5,6]
+                                   0                    0.866025 
+   306 accelerate_cst[6,1]
+                                   0                    0.866025 
+   307 accelerate_cst[6,2]
+                                   0                    0.866025 
+   308 accelerate_cst[6,3]
+                                   0                    0.866025 
+   309 accelerate_cst[6,4]
+                                   0                    0.866025 
+   310 accelerate_cst[6,5]
+                                   0                    0.866025 
+   311 accelerate_cst[6,6]
+                                   0                    0.866025 
+   312 accelerate_cst[7,1]
+                            0.866025                    0.866025 
+   313 accelerate_cst[7,2]
+                            0.866025                    0.866025 
+   314 accelerate_cst[7,3]
+                                   0                    0.866025 
+   315 accelerate_cst[7,4]
+                           -0.866025                    0.866025 
+   316 accelerate_cst[7,5]
+                           -0.866025                    0.866025 
+   317 accelerate_cst[7,6]
+                                   0                    0.866025 
+   318 accelerate_cst[8,1]
+                                   0                    0.866025 
+   319 accelerate_cst[8,2]
+                            0.866025                    0.866025 
+   320 accelerate_cst[8,3]
+                            0.866025                    0.866025 
+   321 accelerate_cst[8,4]
+                                   0                    0.866025 
+   322 accelerate_cst[8,5]
+                           -0.866025                    0.866025 
+   323 accelerate_cst[8,6]
+                           -0.866025                    0.866025 
+   324 accelerate_cst[9,1]
+                            0.517443                    0.866025 
+   325 accelerate_cst[9,2]
+                            0.866025                    0.866025 
+   326 accelerate_cst[9,3]
+                            0.348583                    0.866025 
+   327 accelerate_cst[9,4]
+                           -0.517443                    0.866025 
+   328 accelerate_cst[9,5]
+                           -0.866025                    0.866025 
+   329 accelerate_cst[9,6]
+                           -0.348583                    0.866025 
+   330 accelerate_cst[10,1]
+                                   0                    0.866025 
+   331 accelerate_cst[10,2]
+                            0.866025                    0.866025 
+   332 accelerate_cst[10,3]
+                            0.866025                    0.866025 
+   333 accelerate_cst[10,4]
+                                   0                    0.866025 
+   334 accelerate_cst[10,5]
+                           -0.866025                    0.866025 
+   335 accelerate_cst[10,6]
+                           -0.866025                    0.866025 
+   336 accelerate_cst[11,1]
+                                   0                    0.866025 
+   337 accelerate_cst[11,2]
+                            0.866025                    0.866025 
+   338 accelerate_cst[11,3]
+                            0.866025                    0.866025 
+   339 accelerate_cst[11,4]
+                                   0                    0.866025 
+   340 accelerate_cst[11,5]
+                           -0.866025                    0.866025 
+   341 accelerate_cst[11,6]
+                           -0.866025                    0.866025 
+   342 accelerate_cst[12,1]
+                                   0                    0.866025 
+   343 accelerate_cst[12,2]
+                            0.866025                    0.866025 
+   344 accelerate_cst[12,3]
+                            0.866025                    0.866025 
+   345 accelerate_cst[12,4]
+                                   0                    0.866025 
+   346 accelerate_cst[12,5]
+                           -0.866025                    0.866025 
+   347 accelerate_cst[12,6]
+                           -0.866025                    0.866025 
+   348 accelerate_cst[13,1]
+                                   0                    0.866025 
+   349 accelerate_cst[13,2]
+                            0.197805                    0.866025 
+   350 accelerate_cst[13,3]
+                            0.197805                    0.866025 
+   351 accelerate_cst[13,4]
+                                   0                    0.866025 
+   352 accelerate_cst[13,5]
+                           -0.197805                    0.866025 
+   353 accelerate_cst[13,6]
+                           -0.197805                    0.866025 
+   354 accelerate_cst[14,1]
+                                   0                    0.866025 
+   355 accelerate_cst[14,2]
+                                   0                    0.866025 
+   356 accelerate_cst[14,3]
+                                   0                    0.866025 
+   357 accelerate_cst[14,4]
+                                   0                    0.866025 
+   358 accelerate_cst[14,5]
+                                   0                    0.866025 
+   359 accelerate_cst[14,6]
+                                   0                    0.866025 
+   360 accelerate_cst[15,1]
+                                   0                    0.866025 
+   361 accelerate_cst[15,2]
+                                   0                    0.866025 
+   362 accelerate_cst[15,3]
+                                   0                    0.866025 
+   363 accelerate_cst[15,4]
+                                   0                    0.866025 
+   364 accelerate_cst[15,5]
+                                   0                    0.866025 
+   365 accelerate_cst[15,6]
+                                   0                    0.866025 
+   366 accelerate_cst[16,1]
+                                   0                    0.866025 
+   367 accelerate_cst[16,2]
+                                   0                    0.866025 
+   368 accelerate_cst[16,3]
+                                   0                    0.866025 
+   369 accelerate_cst[16,4]
+                                   0                    0.866025 
+   370 accelerate_cst[16,5]
+                                   0                    0.866025 
+   371 accelerate_cst[16,6]
+                                   0                    0.866025 
+   372 accelerate_cst[17,1]
+                                   0                    0.866025 
+   373 accelerate_cst[17,2]
+                                   0                    0.866025 
+   374 accelerate_cst[17,3]
+                                   0                    0.866025 
+   375 accelerate_cst[17,4]
+                                   0                    0.866025 
+   376 accelerate_cst[17,5]
+                                   0                    0.866025 
+   377 accelerate_cst[17,6]
+                                   0                    0.866025 
+   378 accelerate_cst[18,1]
+                                   0                    0.866025 
+   379 accelerate_cst[18,2]
+                                   0                    0.866025 
+   380 accelerate_cst[18,3]
+                                   0                    0.866025 
+   381 accelerate_cst[18,4]
+                                   0                    0.866025 
+   382 accelerate_cst[18,5]
+                                   0                    0.866025 
+   383 accelerate_cst[18,6]
+                                   0                    0.866025 
+   384 accelerate_cst[19,1]
+                                   0                    0.866025 
+   385 accelerate_cst[19,2]
+                                   0                    0.866025 
+   386 accelerate_cst[19,3]
+                                   0                    0.866025 
+   387 accelerate_cst[19,4]
+                                   0                    0.866025 
+   388 accelerate_cst[19,5]
+                                   0                    0.866025 
+   389 accelerate_cst[19,6]
+                                   0                    0.866025 
+   390 accelerate_cst_am[1,1]
+                           -0.912905                          -0 
+   391 accelerate_cst_am[1,2]
+                            -1.73205                          -0 
+   392 accelerate_cst_am[1,3]
+                            -1.68517                          -0 
+   393 accelerate_cst_am[1,4]
+                           -0.819146                          -0 
+   394 accelerate_cst_am[1,5]
+                                   0                          -0 
+   395 accelerate_cst_am[1,6]
+                          -0.0468796                          -0 
+   396 accelerate_cst_am[2,1]
+                           -0.866025                          -0 
+   397 accelerate_cst_am[2,2]
+                            -1.73205                          -0 
+   398 accelerate_cst_am[2,3]
+                            -1.73205                          -0 
+   399 accelerate_cst_am[2,4]
+                           -0.866025                          -0 
+   400 accelerate_cst_am[2,5]
+                                   0                          -0 
+   401 accelerate_cst_am[2,6]
+                                   0                          -0 
+   402 accelerate_cst_am[3,1]
+                           -0.866025                          -0 
+   403 accelerate_cst_am[3,2]
+                            -1.73205                          -0 
+   404 accelerate_cst_am[3,3]
+                            -1.73205                          -0 
+   405 accelerate_cst_am[3,4]
+                           -0.866025                          -0 
+   406 accelerate_cst_am[3,5]
+                                   0                          -0 
+   407 accelerate_cst_am[3,6]
+                                   0                          -0 
+   408 accelerate_cst_am[4,1]
+                           -0.866025                          -0 
+   409 accelerate_cst_am[4,2]
+                            -1.73205                          -0 
+   410 accelerate_cst_am[4,3]
+                            -1.73205                          -0 
+   411 accelerate_cst_am[4,4]
+                           -0.866025                          -0 
+   412 accelerate_cst_am[4,5]
+                                   0                          -0 
+   413 accelerate_cst_am[4,6]
+                                   0                          -0 
+   414 accelerate_cst_am[5,1]
+                           -0.765569                          -0 
+   415 accelerate_cst_am[5,2]
+                           -0.765569                          -0 
+   416 accelerate_cst_am[5,3]
+                           -0.382785                          -0 
+   417 accelerate_cst_am[5,4]
+                                   0                          -0 
+   418 accelerate_cst_am[5,5]
+                                   0                          -0 
+   419 accelerate_cst_am[5,6]
+                           -0.382785                          -0 
+   420 accelerate_cst_am[6,1]
+                                   0                          -0 
+   421 accelerate_cst_am[6,2]
+                                   0                          -0 
+   422 accelerate_cst_am[6,3]
+                                   0                          -0 
+   423 accelerate_cst_am[6,4]
+                                   0                          -0 
+   424 accelerate_cst_am[6,5]
+                                   0                          -0 
+   425 accelerate_cst_am[6,6]
+                                   0                          -0 
+   426 accelerate_cst_am[7,1]
+                                   0                          -0 
+   427 accelerate_cst_am[7,2]
+                                   0                          -0 
+   428 accelerate_cst_am[7,3]
+                           -0.866025                          -0 
+   429 accelerate_cst_am[7,4]
+                            -1.73205                          -0 
+   430 accelerate_cst_am[7,5]
+                            -1.73205                          -0 
+   431 accelerate_cst_am[7,6]
+                           -0.866025                          -0 
+   432 accelerate_cst_am[8,1]
+                           -0.866025                          -0 
+   433 accelerate_cst_am[8,2]
+                                   0                          -0 
+   434 accelerate_cst_am[8,3]
+                                   0                          -0 
+   435 accelerate_cst_am[8,4]
+                           -0.866025                          -0 
+   436 accelerate_cst_am[8,5]
+                            -1.73205                          -0 
+   437 accelerate_cst_am[8,6]
+                            -1.73205                          -0 
+   438 accelerate_cst_am[9,1]
+                           -0.348583                          -0 
+   439 accelerate_cst_am[9,2]
+                                   0                          -0 
+   440 accelerate_cst_am[9,3]
+                           -0.517443                          -0 
+   441 accelerate_cst_am[9,4]
+                            -1.38347                          -0 
+   442 accelerate_cst_am[9,5]
+                            -1.73205                          -0 
+   443 accelerate_cst_am[9,6]
+                            -1.21461                          -0 
+   444 accelerate_cst_am[10,1]
+                           -0.866025                          -0 
+   445 accelerate_cst_am[10,2]
+                                   0                          -0 
+   446 accelerate_cst_am[10,3]
+                                   0                          -0 
+   447 accelerate_cst_am[10,4]
+                           -0.866025                          -0 
+   448 accelerate_cst_am[10,5]
+                            -1.73205                          -0 
+   449 accelerate_cst_am[10,6]
+                            -1.73205                          -0 
+   450 accelerate_cst_am[11,1]
+                           -0.866025                          -0 
+   451 accelerate_cst_am[11,2]
+                                   0                          -0 
+   452 accelerate_cst_am[11,3]
+                                   0                          -0 
+   453 accelerate_cst_am[11,4]
+                           -0.866025                          -0 
+   454 accelerate_cst_am[11,5]
+                            -1.73205                          -0 
+   455 accelerate_cst_am[11,6]
+                            -1.73205                          -0 
+   456 accelerate_cst_am[12,1]
+                           -0.866025                          -0 
+   457 accelerate_cst_am[12,2]
+                                   0                          -0 
+   458 accelerate_cst_am[12,3]
+                                   0                          -0 
+   459 accelerate_cst_am[12,4]
+                           -0.866025                          -0 
+   460 accelerate_cst_am[12,5]
+                            -1.73205                          -0 
+   461 accelerate_cst_am[12,6]
+                            -1.73205                          -0 
+   462 accelerate_cst_am[13,1]
+                           -0.197805                          -0 
+   463 accelerate_cst_am[13,2]
+                                   0                          -0 
+   464 accelerate_cst_am[13,3]
+                                   0                          -0 
+   465 accelerate_cst_am[13,4]
+                           -0.197805                          -0 
+   466 accelerate_cst_am[13,5]
+                            -0.39561                          -0 
+   467 accelerate_cst_am[13,6]
+                            -0.39561                          -0 
+   468 accelerate_cst_am[14,1]
+                                   0                          -0 
+   469 accelerate_cst_am[14,2]
+                                   0                          -0 
+   470 accelerate_cst_am[14,3]
+                                   0                          -0 
+   471 accelerate_cst_am[14,4]
+                                   0                          -0 
+   472 accelerate_cst_am[14,5]
+                                   0                          -0 
+   473 accelerate_cst_am[14,6]
+                                   0                          -0 
+   474 accelerate_cst_am[15,1]
+                                   0                          -0 
+   475 accelerate_cst_am[15,2]
+                                   0                          -0 
+   476 accelerate_cst_am[15,3]
+                                   0                          -0 
+   477 accelerate_cst_am[15,4]
+                                   0                          -0 
+   478 accelerate_cst_am[15,5]
+                                   0                          -0 
+   479 accelerate_cst_am[15,6]
+                                   0                          -0 
+   480 accelerate_cst_am[16,1]
+                                   0                          -0 
+   481 accelerate_cst_am[16,2]
+                                   0                          -0 
+   482 accelerate_cst_am[16,3]
+                                   0                          -0 
+   483 accelerate_cst_am[16,4]
+                                   0                          -0 
+   484 accelerate_cst_am[16,5]
+                                   0                          -0 
+   485 accelerate_cst_am[16,6]
+                                   0                          -0 
+   486 accelerate_cst_am[17,1]
+                                   0                          -0 
+   487 accelerate_cst_am[17,2]
+                                   0                          -0 
+   488 accelerate_cst_am[17,3]
+                                   0                          -0 
+   489 accelerate_cst_am[17,4]
+                                   0                          -0 
+   490 accelerate_cst_am[17,5]
+                                   0                          -0 
+   491 accelerate_cst_am[17,6]
+                                   0                          -0 
+   492 accelerate_cst_am[18,1]
+                                   0                          -0 
+   493 accelerate_cst_am[18,2]
+                                   0                          -0 
+   494 accelerate_cst_am[18,3]
+                                   0                          -0 
+   495 accelerate_cst_am[18,4]
+                                   0                          -0 
+   496 accelerate_cst_am[18,5]
+                                   0                          -0 
+   497 accelerate_cst_am[18,6]
+                                   0                          -0 
+   498 accelerate_cst_am[19,1]
+                                   0                          -0 
+   499 accelerate_cst_am[19,2]
+                                   0                          -0 
+   500 accelerate_cst_am[19,3]
+                                   0                          -0 
+   501 accelerate_cst_am[19,4]
+                                   0                          -0 
+   502 accelerate_cst_am[19,5]
+                                   0                          -0 
+   503 accelerate_cst_am[19,6]
+                                   0                          -0 
+   504 waypoint_visit_lo[1,1,1]
+                                   0            -2               
+   505 waypoint_visit_lo[1,1,2]
+                                   0            -2               
+   506 waypoint_visit_lo[1,2,1]
+                                   0            -2               
+   507 waypoint_visit_lo[1,2,2]
+                                   0            -2               
+   508 waypoint_visit_lo[2,1,1]
+                            0.434117            -2               
+   509 waypoint_visit_lo[2,1,2]
+                            0.102393            -2               
+   510 waypoint_visit_lo[2,2,1]
+                            0.434117            -2               
+   511 waypoint_visit_lo[2,2,2]
+                            0.102393            -2               
+   512 waypoint_visit_lo[3,1,1]
+                             0.73985            -2               
+   513 waypoint_visit_lo[3,1,2]
+                            0.415433            -2               
+   514 waypoint_visit_lo[3,2,1]
+                             0.73985            -2               
+   515 waypoint_visit_lo[3,2,2]
+                            0.415433            -2               
+   516 waypoint_visit_lo[4,1,1]
+                            0.920584            -2               
+   517 waypoint_visit_lo[4,1,2]
+                            0.944979            -2               
+   518 waypoint_visit_lo[4,2,1]
+                            0.920584            -2               
+   519 waypoint_visit_lo[4,2,2]
+                            0.944979            -2               
+   520 waypoint_visit_lo[5,1,1]
+                            0.976317            -2               
+   521 waypoint_visit_lo[5,1,2]
+                             1.69103            -2               
+   522 waypoint_visit_lo[5,2,1]
+                            0.976317            -2               
+   523 waypoint_visit_lo[5,2,2]
+                             1.69103            -2               
+   524 waypoint_visit_lo[6,1,1]
+                            0.914301            -2               
+   525 waypoint_visit_lo[6,1,2]
+                             2.54534            -2               
+   526 waypoint_visit_lo[6,2,1]
+                            0.914301            -2               
+   527 waypoint_visit_lo[6,2,2]
+                             2.54534            -2               
+   528 waypoint_visit_lo[7,1,1]
+                            0.797034            -2               
+   529 waypoint_visit_lo[7,1,2]
+                             3.39964            -2               
+   530 waypoint_visit_lo[7,2,1]
+                            0.797034            -2               
+   531 waypoint_visit_lo[7,2,2]
+                             3.39964            -2               
+   532 waypoint_visit_lo[8,1,1]
+                            0.804767            -2               
+   533 waypoint_visit_lo[8,1,2]
+                             4.25395            -2               
+   534 waypoint_visit_lo[8,2,1]
+                            0.804767            -2               
+   535 waypoint_visit_lo[8,2,2]
+                             4.25395            -2               
+   536 waypoint_visit_lo[9,1,1]
+                                   1            -2               
+   537 waypoint_visit_lo[9,1,2]
+                                   5            -2               
+   538 waypoint_visit_lo[9,2,1]
+                                  -1            -2               
+   539 waypoint_visit_lo[9,2,2]
+                                  -2            -2               
+   540 waypoint_visit_lo[10,1,1]
+                             1.35758            -2               
+   541 waypoint_visit_lo[10,1,2]
+                             5.59423            -2               
+   542 waypoint_visit_lo[10,2,1]
+                             1.35758            -2               
+   543 waypoint_visit_lo[10,2,2]
+                             5.59423            -2               
+   544 waypoint_visit_lo[11,1,1]
+                              1.8775            -2               
+   545 waypoint_visit_lo[11,1,2]
+                             6.03663            -2               
+   546 waypoint_visit_lo[11,2,1]
+                              1.8775            -2               
+   547 waypoint_visit_lo[11,2,2]
+                             6.03663            -2               
+   548 waypoint_visit_lo[12,1,1]
+                             2.52242            -2               
+   549 waypoint_visit_lo[12,1,2]
+                             6.26252            -2               
+   550 waypoint_visit_lo[12,2,1]
+                             2.52242            -2               
+   551 waypoint_visit_lo[12,2,2]
+                             6.26252            -2               
+   552 waypoint_visit_lo[13,1,1]
+                             3.29233            -2               
+   553 waypoint_visit_lo[13,1,2]
+                             6.27191            -2               
+   554 waypoint_visit_lo[13,2,1]
+                             3.29233            -2               
+   555 waypoint_visit_lo[13,2,2]
+                             6.27191            -2               
+   556 waypoint_visit_lo[14,1,1]
+                             4.13903            -2               
+   557 waypoint_visit_lo[14,1,2]
+                             6.14832            -2               
+   558 waypoint_visit_lo[14,2,1]
+                             4.13903            -2               
+   559 waypoint_visit_lo[14,2,2]
+                             6.14832            -2               
+   560 waypoint_visit_lo[15,1,1]
+                                  -2            -2               
+   561 waypoint_visit_lo[15,1,2]
+                                  -1            -2               
+   562 waypoint_visit_lo[15,2,1]
+                                   5            -2               
+   563 waypoint_visit_lo[15,2,2]
+                                   6            -2               
+   564 waypoint_visit_lo[16,1,1]
+                             5.86097            -2               
+   565 waypoint_visit_lo[16,1,2]
+                             5.85168            -2               
+   566 waypoint_visit_lo[16,2,1]
+                             5.86097            -2               
+   567 waypoint_visit_lo[16,2,2]
+                             5.85168            -2               
+   568 waypoint_visit_lo[17,1,1]
+                             6.72194            -2               
+   569 waypoint_visit_lo[17,1,2]
+                             5.70337            -2               
+   570 waypoint_visit_lo[17,2,1]
+                             6.72194            -2               
+   571 waypoint_visit_lo[17,2,2]
+                             5.70337            -2               
+   572 waypoint_visit_lo[18,1,1]
+                             7.58291            -2               
+   573 waypoint_visit_lo[18,1,2]
+                             5.55505            -2               
+   574 waypoint_visit_lo[18,2,1]
+                             7.58291            -2               
+   575 waypoint_visit_lo[18,2,2]
+                             5.55505            -2               
+   576 waypoint_visit_lo[19,1,1]
+                             8.44388            -2               
+   577 waypoint_visit_lo[19,1,2]
+                             5.40673            -2               
+   578 waypoint_visit_lo[19,2,1]
+                             8.44388            -2               
+   579 waypoint_visit_lo[19,2,2]
+                             5.40673            -2               
+   580 waypoint_visit_lo[20,1,1]
+                             9.30485            -2               
+   581 waypoint_visit_lo[20,1,2]
+                             5.25842            -2               
+   582 waypoint_visit_lo[20,2,1]
+                             9.30485            -2               
+   583 waypoint_visit_lo[20,2,2]
+                             5.25842            -2               
+   584 waypoint_visit_hi[1,1,1]
+                                   0                          10 
+   585 waypoint_visit_hi[1,1,2]
+                                   0                          10 
+   586 waypoint_visit_hi[1,2,1]
+                                   0                          10 
+   587 waypoint_visit_hi[1,2,2]
+                                   0                          10 
+   588 waypoint_visit_hi[2,1,1]
+                            0.434117                          10 
+   589 waypoint_visit_hi[2,1,2]
+                            0.102393                          10 
+   590 waypoint_visit_hi[2,2,1]
+                            0.434117                          10 
+   591 waypoint_visit_hi[2,2,2]
+                            0.102393                          10 
+   592 waypoint_visit_hi[3,1,1]
+                             0.73985                          10 
+   593 waypoint_visit_hi[3,1,2]
+                            0.415433                          10 
+   594 waypoint_visit_hi[3,2,1]
+                             0.73985                          10 
+   595 waypoint_visit_hi[3,2,2]
+                            0.415433                          10 
+   596 waypoint_visit_hi[4,1,1]
+                            0.920584                          10 
+   597 waypoint_visit_hi[4,1,2]
+                            0.944979                          10 
+   598 waypoint_visit_hi[4,2,1]
+                            0.920584                          10 
+   599 waypoint_visit_hi[4,2,2]
+                            0.944979                          10 
+   600 waypoint_visit_hi[5,1,1]
+                            0.976317                          10 
+   601 waypoint_visit_hi[5,1,2]
+                             1.69103                          10 
+   602 waypoint_visit_hi[5,2,1]
+                            0.976317                          10 
+   603 waypoint_visit_hi[5,2,2]
+                             1.69103                          10 
+   604 waypoint_visit_hi[6,1,1]
+                            0.914301                          10 
+   605 waypoint_visit_hi[6,1,2]
+                             2.54534                          10 
+   606 waypoint_visit_hi[6,2,1]
+                            0.914301                          10 
+   607 waypoint_visit_hi[6,2,2]
+                             2.54534                          10 
+   608 waypoint_visit_hi[7,1,1]
+                            0.797034                          10 
+   609 waypoint_visit_hi[7,1,2]
+                             3.39964                          10 
+   610 waypoint_visit_hi[7,2,1]
+                            0.797034                          10 
+   611 waypoint_visit_hi[7,2,2]
+                             3.39964                          10 
+   612 waypoint_visit_hi[8,1,1]
+                            0.804767                          10 
+   613 waypoint_visit_hi[8,1,2]
+                             4.25395                          10 
+   614 waypoint_visit_hi[8,2,1]
+                            0.804767                          10 
+   615 waypoint_visit_hi[8,2,2]
+                             4.25395                          10 
+   616 waypoint_visit_hi[9,1,1]
+                                   1                          10 
+   617 waypoint_visit_hi[9,1,2]
+                                   5                          10 
+   618 waypoint_visit_hi[9,2,1]
+                                  10                          10 
+   619 waypoint_visit_hi[9,2,2]
+                                   9                          10 
+   620 waypoint_visit_hi[10,1,1]
+                             1.35758                          10 
+   621 waypoint_visit_hi[10,1,2]
+                             5.59423                          10 
+   622 waypoint_visit_hi[10,2,1]
+                             1.35758                          10 
+   623 waypoint_visit_hi[10,2,2]
+                             5.59423                          10 
+   624 waypoint_visit_hi[11,1,1]
+                              1.8775                          10 
+   625 waypoint_visit_hi[11,1,2]
+                             6.03663                          10 
+   626 waypoint_visit_hi[11,2,1]
+                              1.8775                          10 
+   627 waypoint_visit_hi[11,2,2]
+                             6.03663                          10 
+   628 waypoint_visit_hi[12,1,1]
+                             2.52242                          10 
+   629 waypoint_visit_hi[12,1,2]
+                             6.26252                          10 
+   630 waypoint_visit_hi[12,2,1]
+                             2.52242                          10 
+   631 waypoint_visit_hi[12,2,2]
+                             6.26252                          10 
+   632 waypoint_visit_hi[13,1,1]
+                             3.29233                          10 
+   633 waypoint_visit_hi[13,1,2]
+                             6.27191                          10 
+   634 waypoint_visit_hi[13,2,1]
+                             3.29233                          10 
+   635 waypoint_visit_hi[13,2,2]
+                             6.27191                          10 
+   636 waypoint_visit_hi[14,1,1]
+                             4.13903                          10 
+   637 waypoint_visit_hi[14,1,2]
+                             6.14832                          10 
+   638 waypoint_visit_hi[14,2,1]
+                             4.13903                          10 
+   639 waypoint_visit_hi[14,2,2]
+                             6.14832                          10 
+   640 waypoint_visit_hi[15,1,1]
+                                   9                          10 
+   641 waypoint_visit_hi[15,1,2]
+                                  10                          10 
+   642 waypoint_visit_hi[15,2,1]
+                                   5                          10 
+   643 waypoint_visit_hi[15,2,2]
+                                   6                          10 
+   644 waypoint_visit_hi[16,1,1]
+                             5.86097                          10 
+   645 waypoint_visit_hi[16,1,2]
+                             5.85168                          10 
+   646 waypoint_visit_hi[16,2,1]
+                             5.86097                          10 
+   647 waypoint_visit_hi[16,2,2]
+                             5.85168                          10 
+   648 waypoint_visit_hi[17,1,1]
+                             6.72194                          10 
+   649 waypoint_visit_hi[17,1,2]
+                             5.70337                          10 
+   650 waypoint_visit_hi[17,2,1]
+                             6.72194                          10 
+   651 waypoint_visit_hi[17,2,2]
+                             5.70337                          10 
+   652 waypoint_visit_hi[18,1,1]
+                             7.58291                          10 
+   653 waypoint_visit_hi[18,1,2]
+                             5.55505                          10 
+   654 waypoint_visit_hi[18,2,1]
+                             7.58291                          10 
+   655 waypoint_visit_hi[18,2,2]
+                             5.55505                          10 
+   656 waypoint_visit_hi[19,1,1]
+                             8.44388                          10 
+   657 waypoint_visit_hi[19,1,2]
+                             5.40673                          10 
+   658 waypoint_visit_hi[19,2,1]
+                             8.44388                          10 
+   659 waypoint_visit_hi[19,2,2]
+                             5.40673                          10 
+   660 waypoint_visit_hi[20,1,1]
+                             9.30485                          10 
+   661 waypoint_visit_hi[20,1,2]
+                             5.25842                          10 
+   662 waypoint_visit_hi[20,2,1]
+                             9.30485                          10 
+   663 waypoint_visit_hi[20,2,2]
+                             5.25842                          10 
+   664 waypoint_visit_logic[1]
+                                   1             1             = 
+   665 waypoint_visit_logic[2]
+                                   1             1             = 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 pos[1,1]                    0                             
+     2 pos[2,1]                    0                             
+     3 pos[1,2]             0.434117                             
+     4 pos[1,3]              0.73985                             
+     5 pos[1,4]             0.920584                             
+     6 pos[1,5]             0.976317                             
+     7 pos[1,6]             0.914301                             
+     8 pos[1,7]             0.797034                             
+     9 pos[1,8]             0.804767                             
+    10 pos[1,9]                    1                             
+    11 pos[1,10]             1.35758                             
+    12 pos[1,11]              1.8775                             
+    13 pos[1,12]             2.52242                             
+    14 pos[1,13]             3.29233                             
+    15 pos[1,14]             4.13903                             
+    16 pos[1,15]                   5                             
+    17 pos[1,16]             5.86097                             
+    18 pos[1,17]             6.72194                             
+    19 pos[1,18]             7.58291                             
+    20 pos[1,19]             8.44388                             
+    21 pos[1,20]             9.30485                             
+    22 pos[2,2]             0.102393                             
+    23 pos[2,3]             0.415433                             
+    24 pos[2,4]             0.944979                             
+    25 pos[2,5]              1.69103                             
+    26 pos[2,6]              2.54534                             
+    27 pos[2,7]              3.39964                             
+    28 pos[2,8]              4.25395                             
+    29 pos[2,9]                    5                             
+    30 pos[2,10]             5.59423                             
+    31 pos[2,11]             6.03663                             
+    32 pos[2,12]             6.26252                             
+    33 pos[2,13]             6.27191                             
+    34 pos[2,14]             6.14832                             
+    35 pos[2,15]                   6                             
+    36 pos[2,16]             5.85168                             
+    37 pos[2,17]             5.70337                             
+    38 pos[2,18]             5.55505                             
+    39 pos[2,19]             5.40673                             
+    40 pos[2,20]             5.25842                             
+    41 vel[1,1]                    1                             
+    42 vel[2,1]                    0                             
+    43 vel[1,2]             0.736467                             
+    44 vel[1,3]             0.486467                             
+    45 vel[1,4]             0.236467                             
+    46 vel[1,5]            -0.013533                             
+    47 vel[1,6]            -0.234534                             
+    48 vel[1,7]            -0.234534                             
+    49 vel[1,8]             0.265466                             
+    50 vel[1,9]             0.515466                             
+    51 vel[1,10]            0.914839                             
+    52 vel[1,11]             1.16484                             
+    53 vel[1,12]             1.41484                             
+    54 vel[1,13]             1.66484                             
+    55 vel[1,14]             1.72194                             
+    56 vel[1,15]             1.72194                             
+    57 vel[1,16]             1.72194                             
+    58 vel[1,17]             1.72194                             
+    59 vel[1,18]             1.72194                             
+    60 vel[1,19]             1.72194                             
+    61 vel[1,20]             1.72194                             
+    62 vel[2,2]             0.409573                             
+    63 vel[2,3]             0.842586                             
+    64 vel[2,4]               1.2756                             
+    65 vel[2,5]              1.70861                             
+    66 vel[2,6]              1.70861                             
+    67 vel[2,7]              1.70861                             
+    68 vel[2,8]              1.70861                             
+    69 vel[2,9]               1.2756                             
+    70 vel[2,10]             1.10131                             
+    71 vel[2,11]            0.668294                             
+    72 vel[2,12]            0.235281                             
+    73 vel[2,13]           -0.197731                             
+    74 vel[2,14]           -0.296634                             
+    75 vel[2,15]           -0.296634                             
+    76 vel[2,16]           -0.296634                             
+    77 vel[2,17]           -0.296634                             
+    78 vel[2,18]           -0.296634                             
+    79 vel[2,19]           -0.296634                             
+    80 vel[2,20]           -0.296634                             
+    81 acc[1,1]            -0.527066                             
+    82 acc[1,2]                 -0.5                             
+    83 acc[1,3]                 -0.5                             
+    84 acc[1,4]                 -0.5                             
+    85 acc[1,5]            -0.442002                             
+    86 acc[1,6]                    0                             
+    87 acc[1,7]                    1                             
+    88 acc[1,8]                  0.5                             
+    89 acc[1,9]             0.798746                             
+    90 acc[1,10]                 0.5                             
+    91 acc[1,11]                 0.5                             
+    92 acc[1,12]                 0.5                             
+    93 acc[1,13]            0.114203                             
+    94 acc[1,14]                   0                             
+    95 acc[1,15]                   0                             
+    96 acc[1,16]                   0                             
+    97 acc[1,17]                   0                             
+    98 acc[1,18]                   0                             
+    99 acc[1,19]                   0                             
+   100 acc[2,1]             0.819146                             
+   101 acc[2,2]             0.866025                             
+   102 acc[2,3]             0.866025                             
+   103 acc[2,4]             0.866025                             
+   104 acc[2,5]                    0                             
+   105 acc[2,6]                    0                             
+   106 acc[2,7]                    0                             
+   107 acc[2,8]            -0.866025                             
+   108 acc[2,9]            -0.348583                             
+   109 acc[2,10]           -0.866025                             
+   110 acc[2,11]           -0.866025                             
+   111 acc[2,12]           -0.866025                             
+   112 acc[2,13]           -0.197805                             
+   113 acc[2,14]                   0                             
+   114 acc[2,15]                   0                             
+   115 acc[2,16]                   0                             
+   116 acc[2,17]                   0                             
+   117 acc[2,18]                   0                             
+   118 acc[2,19]                   0                             
+   119 am[1]                0.866025                             
+   120 am[2]                0.866025                             
+   121 am[3]                0.866025                             
+   122 am[4]                0.866025                             
+   123 am[5]                0.382785                             
+   124 am[6]                       0                             
+   125 am[7]                0.866025                             
+   126 am[8]                0.866025                             
+   127 am[9]                0.866025                             
+   128 am[10]               0.866025                             
+   129 am[11]               0.866025                             
+   130 am[12]               0.866025                             
+   131 am[13]               0.197805                             
+   132 am[14]                      0                             
+   133 am[15]                      0                             
+   134 am[16]                      0                             
+   135 am[17]                      0                             
+   136 am[18]                      0                             
+   137 am[19]                      0                             
+   138 binary_wp[1,1]
+                    *              0             0             1 
+   139 binary_wp[1,2]
+                    *              0             0             1 
+   140 binary_wp[2,1]
+                    *              0             0             1 
+   141 binary_wp[2,2]
+                    *              0             0             1 
+   142 binary_wp[3,1]
+                    *              0             0             1 
+   143 binary_wp[3,2]
+                    *              0             0             1 
+   144 binary_wp[4,1]
+                    *              0             0             1 
+   145 binary_wp[4,2]
+                    *              0             0             1 
+   146 binary_wp[5,1]
+                    *              0             0             1 
+   147 binary_wp[5,2]
+                    *              0             0             1 
+   148 binary_wp[6,1]
+                    *              0             0             1 
+   149 binary_wp[6,2]
+                    *              0             0             1 
+   150 binary_wp[7,1]
+                    *              0             0             1 
+   151 binary_wp[7,2]
+                    *              0             0             1 
+   152 binary_wp[8,1]
+                    *              0             0             1 
+   153 binary_wp[8,2]
+                    *              0             0             1 
+   154 binary_wp[9,1]
+                    *              0             0             1 
+   155 binary_wp[9,2]
+                    *              1             0             1 
+   156 binary_wp[10,1]
+                    *              0             0             1 
+   157 binary_wp[10,2]
+                    *              0             0             1 
+   158 binary_wp[11,1]
+                    *              0             0             1 
+   159 binary_wp[11,2]
+                    *              0             0             1 
+   160 binary_wp[12,1]
+                    *              0             0             1 
+   161 binary_wp[12,2]
+                    *              0             0             1 
+   162 binary_wp[13,1]
+                    *              0             0             1 
+   163 binary_wp[13,2]
+                    *              0             0             1 
+   164 binary_wp[14,1]
+                    *              0             0             1 
+   165 binary_wp[14,2]
+                    *              0             0             1 
+   166 binary_wp[15,1]
+                    *              1             0             1 
+   167 binary_wp[15,2]
+                    *              0             0             1 
+   168 binary_wp[16,1]
+                    *              0             0             1 
+   169 binary_wp[16,2]
+                    *              0             0             1 
+   170 binary_wp[17,1]
+                    *              0             0             1 
+   171 binary_wp[17,2]
+                    *              0             0             1 
+   172 binary_wp[18,1]
+                    *              0             0             1 
+   173 binary_wp[18,2]
+                    *              0             0             1 
+   174 binary_wp[19,1]
+                    *              0             0             1 
+   175 binary_wp[19,2]
+                    *              0             0             1 
+   176 binary_wp[20,1]
+                    *              0             0             1 
+   177 binary_wp[20,2]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 8.88e-16 on row 56
+        max.rel.err = 9.57e-17 on row 56
+        High quality
+
+KKT.PB: max.abs.err = 4.83e-14 on row 75
+        max.rel.err = 4.83e-14 on row 75
+        High quality
+
+End of output

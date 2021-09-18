@@ -1,0 +1,1063 @@
+Problem:    integer_planner_2D_time_selection_iterative
+Rows:       367
+Columns:    181 (128 integer, 128 binary)
+Non-zeros:  873
+Status:     INTEGER OPTIMAL
+Objective:  control_input = 0.1480266042 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 control_input
+                            0.148027                             
+     2 initpos[1]                  0            -0             = 
+     3 initpos[2]                  0            -0             = 
+     4 initvel[1]                  0            -0             = 
+     5 initvel[2]                  1             1             = 
+     6 kinematics[1,1]
+                                   0            -0             = 
+     7 kinematics[1,2]
+                                   0            -0             = 
+     8 kinematics[1,3]
+                                   0            -0             = 
+     9 kinematics[1,4]
+                                   0            -0             = 
+    10 kinematics[1,5]
+                                   0            -0             = 
+    11 kinematics[1,6]
+                                   0            -0             = 
+    12 kinematics[1,7]
+                                   0            -0             = 
+    13 kinematics[2,1]
+                                   0            -0             = 
+    14 kinematics[2,2]
+                                   0            -0             = 
+    15 kinematics[2,3]
+                                   0            -0             = 
+    16 kinematics[2,4]
+                                   0            -0             = 
+    17 kinematics[2,5]
+                                   0            -0             = 
+    18 kinematics[2,6]
+                                   0            -0             = 
+    19 kinematics[2,7]
+                                   0            -0             = 
+    20 dynamics[1,1]
+                                   0            -0             = 
+    21 dynamics[1,2]
+                                   0            -0             = 
+    22 dynamics[1,3]
+                                   0            -0             = 
+    23 dynamics[1,4]
+                                   0            -0             = 
+    24 dynamics[1,5]
+                                   0            -0             = 
+    25 dynamics[1,6]
+                                   0            -0             = 
+    26 dynamics[1,7]
+                                   0            -0             = 
+    27 dynamics[2,1]
+                                   0            -0             = 
+    28 dynamics[2,2]
+                                   0            -0             = 
+    29 dynamics[2,3]
+                                   0            -0             = 
+    30 dynamics[2,4]
+                                   0            -0             = 
+    31 dynamics[2,5]
+                                   0            -0             = 
+    32 dynamics[2,6]
+                                   0            -0             = 
+    33 dynamics[2,7]
+                                   0            -0             = 
+    34 velocity_cst[1,1]
+                                 0.5                     1.73205 
+    35 velocity_cst[1,2]
+                                -0.5                     1.73205 
+    36 velocity_cst[1,3]
+                                  -1                     1.73205 
+    37 velocity_cst[1,4]
+                                -0.5                     1.73205 
+    38 velocity_cst[1,5]
+                                 0.5                     1.73205 
+    39 velocity_cst[1,6]
+                                   1                     1.73205 
+    40 velocity_cst[2,1]
+                            0.472772                     1.73205 
+    41 velocity_cst[2,2]
+                           0.0566519                     1.73205 
+    42 velocity_cst[2,3]
+                            -0.41612                     1.73205 
+    43 velocity_cst[2,4]
+                           -0.472772                     1.73205 
+    44 velocity_cst[2,5]
+                          -0.0566519                     1.73205 
+    45 velocity_cst[2,6]
+                             0.41612                     1.73205 
+    46 velocity_cst[3,1]
+                            0.472772                     1.73205 
+    47 velocity_cst[3,2]
+                           0.0566519                     1.73205 
+    48 velocity_cst[3,3]
+                            -0.41612                     1.73205 
+    49 velocity_cst[3,4]
+                           -0.472772                     1.73205 
+    50 velocity_cst[3,5]
+                          -0.0566519                     1.73205 
+    51 velocity_cst[3,6]
+                             0.41612                     1.73205 
+    52 velocity_cst[4,1]
+                            0.472772                     1.73205 
+    53 velocity_cst[4,2]
+                           0.0566519                     1.73205 
+    54 velocity_cst[4,3]
+                            -0.41612                     1.73205 
+    55 velocity_cst[4,4]
+                           -0.472772                     1.73205 
+    56 velocity_cst[4,5]
+                          -0.0566519                     1.73205 
+    57 velocity_cst[4,6]
+                             0.41612                     1.73205 
+    58 velocity_cst[5,1]
+                            0.472772                     1.73205 
+    59 velocity_cst[5,2]
+                           0.0566519                     1.73205 
+    60 velocity_cst[5,3]
+                            -0.41612                     1.73205 
+    61 velocity_cst[5,4]
+                           -0.472772                     1.73205 
+    62 velocity_cst[5,5]
+                          -0.0566519                     1.73205 
+    63 velocity_cst[5,6]
+                             0.41612                     1.73205 
+    64 velocity_cst[6,1]
+                            0.472772                     1.73205 
+    65 velocity_cst[6,2]
+                           0.0566519                     1.73205 
+    66 velocity_cst[6,3]
+                            -0.41612                     1.73205 
+    67 velocity_cst[6,4]
+                           -0.472772                     1.73205 
+    68 velocity_cst[6,5]
+                          -0.0566519                     1.73205 
+    69 velocity_cst[6,6]
+                             0.41612                     1.73205 
+    70 velocity_cst[7,1]
+                            0.472772                     1.73205 
+    71 velocity_cst[7,2]
+                            0.360931                     1.73205 
+    72 velocity_cst[7,3]
+                            -0.11184                     1.73205 
+    73 velocity_cst[7,4]
+                           -0.472772                     1.73205 
+    74 velocity_cst[7,5]
+                           -0.360931                     1.73205 
+    75 velocity_cst[7,6]
+                             0.11184                     1.73205 
+    76 accelerate_cst[1,1]
+                         -0.00453807                    0.866025 
+    77 accelerate_cst[1,2]
+                           0.0927753                    0.866025 
+    78 accelerate_cst[1,3]
+                           0.0973134                    0.866025 
+    79 accelerate_cst[1,4]
+                          0.00453807                    0.866025 
+    80 accelerate_cst[1,5]
+                          -0.0927753                    0.866025 
+    81 accelerate_cst[1,6]
+                          -0.0973134                    0.866025 
+    82 accelerate_cst[2,1]
+                                   0                    0.866025 
+    83 accelerate_cst[2,2]
+                                   0                    0.866025 
+    84 accelerate_cst[2,3]
+                                   0                    0.866025 
+    85 accelerate_cst[2,4]
+                                   0                    0.866025 
+    86 accelerate_cst[2,5]
+                                   0                    0.866025 
+    87 accelerate_cst[2,6]
+                                   0                    0.866025 
+    88 accelerate_cst[3,1]
+                                   0                    0.866025 
+    89 accelerate_cst[3,2]
+                                   0                    0.866025 
+    90 accelerate_cst[3,3]
+                                   0                    0.866025 
+    91 accelerate_cst[3,4]
+                                   0                    0.866025 
+    92 accelerate_cst[3,5]
+                                   0                    0.866025 
+    93 accelerate_cst[3,6]
+                                   0                    0.866025 
+    94 accelerate_cst[4,1]
+                                   0                    0.866025 
+    95 accelerate_cst[4,2]
+                                   0                    0.866025 
+    96 accelerate_cst[4,3]
+                                   0                    0.866025 
+    97 accelerate_cst[4,4]
+                                   0                    0.866025 
+    98 accelerate_cst[4,5]
+                                   0                    0.866025 
+    99 accelerate_cst[4,6]
+                                   0                    0.866025 
+   100 accelerate_cst[5,1]
+                                   0                    0.866025 
+   101 accelerate_cst[5,2]
+                                   0                    0.866025 
+   102 accelerate_cst[5,3]
+                                   0                    0.866025 
+   103 accelerate_cst[5,4]
+                                   0                    0.866025 
+   104 accelerate_cst[5,5]
+                                   0                    0.866025 
+   105 accelerate_cst[5,6]
+                                   0                    0.866025 
+   106 accelerate_cst[6,1]
+                                   0                    0.866025 
+   107 accelerate_cst[6,2]
+                           0.0507132                    0.866025 
+   108 accelerate_cst[6,3]
+                           0.0507132                    0.866025 
+   109 accelerate_cst[6,4]
+                                   0                    0.866025 
+   110 accelerate_cst[6,5]
+                          -0.0507132                    0.866025 
+   111 accelerate_cst[6,6]
+                          -0.0507132                    0.866025 
+   112 accelerate_cst[7,1]
+                                   0                    0.866025 
+   113 accelerate_cst[7,2]
+                                   0                    0.866025 
+   114 accelerate_cst[7,3]
+                                   0                    0.866025 
+   115 accelerate_cst[7,4]
+                                   0                    0.866025 
+   116 accelerate_cst[7,5]
+                                   0                    0.866025 
+   117 accelerate_cst[7,6]
+                                   0                    0.866025 
+   118 accelerate_cst_am[1,1]
+                           -0.101851                          -0 
+   119 accelerate_cst_am[1,2]
+                         -0.00453807                          -0 
+   120 accelerate_cst_am[1,3]
+                                   0                          -0 
+   121 accelerate_cst_am[1,4]
+                          -0.0927753                          -0 
+   122 accelerate_cst_am[1,5]
+                           -0.190089                          -0 
+   123 accelerate_cst_am[1,6]
+                           -0.194627                          -0 
+   124 accelerate_cst_am[2,1]
+                                   0                          -0 
+   125 accelerate_cst_am[2,2]
+                                   0                          -0 
+   126 accelerate_cst_am[2,3]
+                                   0                          -0 
+   127 accelerate_cst_am[2,4]
+                                   0                          -0 
+   128 accelerate_cst_am[2,5]
+                                   0                          -0 
+   129 accelerate_cst_am[2,6]
+                                   0                          -0 
+   130 accelerate_cst_am[3,1]
+                                   0                          -0 
+   131 accelerate_cst_am[3,2]
+                                   0                          -0 
+   132 accelerate_cst_am[3,3]
+                                   0                          -0 
+   133 accelerate_cst_am[3,4]
+                                   0                          -0 
+   134 accelerate_cst_am[3,5]
+                                   0                          -0 
+   135 accelerate_cst_am[3,6]
+                                   0                          -0 
+   136 accelerate_cst_am[4,1]
+                                   0                          -0 
+   137 accelerate_cst_am[4,2]
+                                   0                          -0 
+   138 accelerate_cst_am[4,3]
+                                   0                          -0 
+   139 accelerate_cst_am[4,4]
+                                   0                          -0 
+   140 accelerate_cst_am[4,5]
+                                   0                          -0 
+   141 accelerate_cst_am[4,6]
+                                   0                          -0 
+   142 accelerate_cst_am[5,1]
+                                   0                          -0 
+   143 accelerate_cst_am[5,2]
+                                   0                          -0 
+   144 accelerate_cst_am[5,3]
+                                   0                          -0 
+   145 accelerate_cst_am[5,4]
+                                   0                          -0 
+   146 accelerate_cst_am[5,5]
+                                   0                          -0 
+   147 accelerate_cst_am[5,6]
+                                   0                          -0 
+   148 accelerate_cst_am[6,1]
+                          -0.0507132                          -0 
+   149 accelerate_cst_am[6,2]
+                                   0                          -0 
+   150 accelerate_cst_am[6,3]
+                                   0                          -0 
+   151 accelerate_cst_am[6,4]
+                          -0.0507132                          -0 
+   152 accelerate_cst_am[6,5]
+                           -0.101426                          -0 
+   153 accelerate_cst_am[6,6]
+                           -0.101426                          -0 
+   154 accelerate_cst_am[7,1]
+                                   0                          -0 
+   155 accelerate_cst_am[7,2]
+                                   0                          -0 
+   156 accelerate_cst_am[7,3]
+                                   0                          -0 
+   157 accelerate_cst_am[7,4]
+                                   0                          -0 
+   158 accelerate_cst_am[7,5]
+                                   0                          -0 
+   159 accelerate_cst_am[7,6]
+                                   0                          -0 
+   160 position_cst_min[1,1]
+                                   0            -2               
+   161 position_cst_min[1,2]
+                            0.916988            -2               
+   162 position_cst_min[1,3]
+                             1.37548            -2               
+   163 position_cst_min[1,4]
+                             1.83398            -2               
+   164 position_cst_min[1,5]
+                             2.29247            -2               
+   165 position_cst_min[1,6]
+                             2.75096            -2               
+   166 position_cst_min[1,7]
+                             5.11197            -2               
+   167 position_cst_min[1,8]
+                                   8            -2               
+   168 position_cst_min[2,1]
+                                   0            -2               
+   169 position_cst_min[2,2]
+                             4.24836            -2               
+   170 position_cst_min[2,3]
+                             4.87254            -2               
+   171 position_cst_min[2,4]
+                             5.49672            -2               
+   172 position_cst_min[2,5]
+                              6.1209            -2               
+   173 position_cst_min[2,6]
+                             6.74508            -2               
+   174 position_cst_min[2,7]
+                             8.32896            -2               
+   175 position_cst_min[2,8]
+                                   9            -2               
+   176 position_cst_max[1,1]
+                                   0                          10 
+   177 position_cst_max[1,2]
+                            0.916988                          10 
+   178 position_cst_max[1,3]
+                             1.37548                          10 
+   179 position_cst_max[1,4]
+                             1.83398                          10 
+   180 position_cst_max[1,5]
+                             2.29247                          10 
+   181 position_cst_max[1,6]
+                             2.75096                          10 
+   182 position_cst_max[1,7]
+                             5.11197                          10 
+   183 position_cst_max[1,8]
+                                   8                          10 
+   184 position_cst_max[2,1]
+                                   0                          10 
+   185 position_cst_max[2,2]
+                             4.24836                          10 
+   186 position_cst_max[2,3]
+                             4.87254                          10 
+   187 position_cst_max[2,4]
+                             5.49672                          10 
+   188 position_cst_max[2,5]
+                              6.1209                          10 
+   189 position_cst_max[2,6]
+                             6.74508                          10 
+   190 position_cst_max[2,7]
+                             8.32896                          10 
+   191 position_cst_max[2,8]
+                                   9                          10 
+   192 arrival_lo[1,1]
+                                   8             8               
+   193 arrival_lo[1,2]
+                                   9             9               
+   194 arrival_lo[2,1]
+                                   8             8               
+   195 arrival_lo[2,2]
+                                   9             9               
+   196 arrival_lo[3,1]
+                                   8             8               
+   197 arrival_lo[3,2]
+                                   9             9               
+   198 arrival_lo[4,1]
+                                   8             8               
+   199 arrival_lo[4,2]
+                                   9             9               
+   200 arrival_lo[5,1]
+                                   8             8               
+   201 arrival_lo[5,2]
+                                   9             9               
+   202 arrival_lo[6,1]
+                                   8             8               
+   203 arrival_lo[6,2]
+                                   9             9               
+   204 arrival_lo[7,1]
+                                   8             8               
+   205 arrival_lo[7,2]
+                                   9             9               
+   206 arrival_lo[8,1]
+                                   8             8               
+   207 arrival_lo[8,2]
+                                   9             9               
+   208 arrival_hi[1,1]
+                                   8                           8 
+   209 arrival_hi[1,2]
+                                   9                           9 
+   210 arrival_hi[2,1]
+                                   8                           8 
+   211 arrival_hi[2,2]
+                                   9                           9 
+   212 arrival_hi[3,1]
+                                   8                           8 
+   213 arrival_hi[3,2]
+                                   9                           9 
+   214 arrival_hi[4,1]
+                                   8                           8 
+   215 arrival_hi[4,2]
+                                   9                           9 
+   216 arrival_hi[5,1]
+                                   8                           8 
+   217 arrival_hi[5,2]
+                                   9                           9 
+   218 arrival_hi[6,1]
+                                   8                           8 
+   219 arrival_hi[6,2]
+                                   9                           9 
+   220 arrival_hi[7,1]
+                                   8                           8 
+   221 arrival_hi[7,2]
+                                   9                           9 
+   222 arrival_hi[8,1]
+                                   8                           8 
+   223 arrival_hi[8,2]
+                                   9                           9 
+   224 obstacle_cst[1,1,1]
+                                1000       8.36396               
+   225 obstacle_cst[1,1,2]
+                                1000             6               
+   226 obstacle_cst[1,1,3]
+                                1000       1.29289               
+   227 obstacle_cst[1,1,4]
+                                   0            -3               
+   228 obstacle_cst[1,1,5]
+                                   0      -4.36396               
+   229 obstacle_cst[1,1,6]
+                                   0            -2               
+   230 obstacle_cst[1,1,7]
+                                1000       2.70711               
+   231 obstacle_cst[1,1,8]
+                                1000             7               
+   232 obstacle_cst[1,2,1]
+                                1000       5.24264               
+   233 obstacle_cst[1,2,2]
+                                1000             3               
+   234 obstacle_cst[1,2,3]
+                                   0     -0.414214               
+   235 obstacle_cst[1,2,4]
+                                   0            -3               
+   236 obstacle_cst[1,2,5]
+                                   0      -3.24264               
+   237 obstacle_cst[1,2,6]
+                                   0            -1               
+   238 obstacle_cst[1,2,7]
+                                1000       2.41421               
+   239 obstacle_cst[1,2,8]
+                                1000             5               
+   240 obstacle_cst[2,1,1]
+                             1003.65       8.36396               
+   241 obstacle_cst[2,1,2]
+                             1000.92             6               
+   242 obstacle_cst[2,1,3]
+                             997.644       1.29289               
+   243 obstacle_cst[2,1,4]
+                             995.752            -3               
+   244 obstacle_cst[2,1,5]
+                            -3.65245      -4.36396               
+   245 obstacle_cst[2,1,6]
+                           -0.916988            -2               
+   246 obstacle_cst[2,1,7]
+                             1002.36       2.70711               
+   247 obstacle_cst[2,1,8]
+                             1004.25             7               
+   248 obstacle_cst[2,2,1]
+                             1003.65       5.24264               
+   249 obstacle_cst[2,2,2]
+                             1000.92             3               
+   250 obstacle_cst[2,2,3]
+                             997.644     -0.414214               
+   251 obstacle_cst[2,2,4]
+                             995.752            -3               
+   252 obstacle_cst[2,2,5]
+                             996.348      -3.24264               
+   253 obstacle_cst[2,2,6]
+                           -0.916988            -1               
+   254 obstacle_cst[2,2,7]
+                             1002.36       2.41421               
+   255 obstacle_cst[2,2,8]
+                             1004.25             5               
+   256 obstacle_cst[3,1,1]
+                             1004.42       8.36396               
+   257 obstacle_cst[3,1,2]
+                             1001.38             6               
+   258 obstacle_cst[3,1,3]
+                             997.527       1.29289               
+   259 obstacle_cst[3,1,4]
+                             995.127            -3               
+   260 obstacle_cst[3,1,5]
+                             995.582      -4.36396               
+   261 obstacle_cst[3,1,6]
+                            -1.37548            -2               
+   262 obstacle_cst[3,1,7]
+                             1002.47       2.70711               
+   263 obstacle_cst[3,1,8]
+                             1004.87             7               
+   264 obstacle_cst[3,2,1]
+                             1004.42       5.24264               
+   265 obstacle_cst[3,2,2]
+                             1001.38             3               
+   266 obstacle_cst[3,2,3]
+                             997.527     -0.414214               
+   267 obstacle_cst[3,2,4]
+                             995.127            -3               
+   268 obstacle_cst[3,2,5]
+                             995.582      -3.24264               
+   269 obstacle_cst[3,2,6]
+                             998.625            -1               
+   270 obstacle_cst[3,2,7]
+                             2.47279       2.41421               
+   271 obstacle_cst[3,2,8]
+                             1004.87             5               
+   272 obstacle_cst[4,1,1]
+                             1005.18       8.36396               
+   273 obstacle_cst[4,1,2]
+                             1001.83             6               
+   274 obstacle_cst[4,1,3]
+                              997.41       1.29289               
+   275 obstacle_cst[4,1,4]
+                             994.503            -3               
+   276 obstacle_cst[4,1,5]
+                             994.816      -4.36396               
+   277 obstacle_cst[4,1,6]
+                            -1.83398            -2               
+   278 obstacle_cst[4,1,7]
+                             1002.59       2.70711               
+   279 obstacle_cst[4,1,8]
+                              1005.5             7               
+   280 obstacle_cst[4,2,1]
+                             1005.18       5.24264               
+   281 obstacle_cst[4,2,2]
+                             1001.83             3               
+   282 obstacle_cst[4,2,3]
+                              997.41     -0.414214               
+   283 obstacle_cst[4,2,4]
+                             994.503            -3               
+   284 obstacle_cst[4,2,5]
+                             994.816      -3.24264               
+   285 obstacle_cst[4,2,6]
+                             998.166            -1               
+   286 obstacle_cst[4,2,7]
+                             2.58995       2.41421               
+   287 obstacle_cst[4,2,8]
+                             5.49672             5               
+   288 obstacle_cst[5,1,1]
+                             1005.95       8.36396               
+   289 obstacle_cst[5,1,2]
+                             1002.29             6               
+   290 obstacle_cst[5,1,3]
+                             997.293       1.29289               
+   291 obstacle_cst[5,1,4]
+                             993.879            -3               
+   292 obstacle_cst[5,1,5]
+                             994.051      -4.36396               
+   293 obstacle_cst[5,1,6]
+                             997.708            -2               
+   294 obstacle_cst[5,1,7]
+                             2.70711       2.70711               
+   295 obstacle_cst[5,1,8]
+                             1006.12             7               
+   296 obstacle_cst[5,2,1]
+                             5.94915       5.24264               
+   297 obstacle_cst[5,2,2]
+                             1002.29             3               
+   298 obstacle_cst[5,2,3]
+                             997.293     -0.414214               
+   299 obstacle_cst[5,2,4]
+                             993.879            -3               
+   300 obstacle_cst[5,2,5]
+                             994.051      -3.24264               
+   301 obstacle_cst[5,2,6]
+                             997.708            -1               
+   302 obstacle_cst[5,2,7]
+                             2.70711       2.41421               
+   303 obstacle_cst[5,2,8]
+                              6.1209             5               
+   304 obstacle_cst[6,1,1]
+                             1006.71       8.36396               
+   305 obstacle_cst[6,1,2]
+                             1002.75             6               
+   306 obstacle_cst[6,1,3]
+                             997.176       1.29289               
+   307 obstacle_cst[6,1,4]
+                             993.255            -3               
+   308 obstacle_cst[6,1,5]
+                             993.285      -4.36396               
+   309 obstacle_cst[6,1,6]
+                             997.249            -2               
+   310 obstacle_cst[6,1,7]
+                             2.82426       2.70711               
+   311 obstacle_cst[6,1,8]
+                             1006.75             7               
+   312 obstacle_cst[6,2,1]
+                             6.71472       5.24264               
+   313 obstacle_cst[6,2,2]
+                             1002.75             3               
+   314 obstacle_cst[6,2,3]
+                             997.176     -0.414214               
+   315 obstacle_cst[6,2,4]
+                             993.255            -3               
+   316 obstacle_cst[6,2,5]
+                             993.285      -3.24264               
+   317 obstacle_cst[6,2,6]
+                             997.249            -1               
+   318 obstacle_cst[6,2,7]
+                             2.82426       2.41421               
+   319 obstacle_cst[6,2,8]
+                             6.74508             5               
+   320 obstacle_cst[7,1,1]
+                             9.50417       8.36396               
+   321 obstacle_cst[7,1,2]
+                             1005.11             6               
+   322 obstacle_cst[7,1,3]
+                             997.725       1.29289               
+   323 obstacle_cst[7,1,4]
+                             991.671            -3               
+   324 obstacle_cst[7,1,5]
+                             990.496      -4.36396               
+   325 obstacle_cst[7,1,6]
+                             994.888            -2               
+   326 obstacle_cst[7,1,7]
+                             1002.27       2.70711               
+   327 obstacle_cst[7,1,8]
+                             8.32896             7               
+   328 obstacle_cst[7,2,1]
+                             9.50417       5.24264               
+   329 obstacle_cst[7,2,2]
+                             5.11197             3               
+   330 obstacle_cst[7,2,3]
+                             997.725     -0.414214               
+   331 obstacle_cst[7,2,4]
+                             991.671            -3               
+   332 obstacle_cst[7,2,5]
+                             990.496      -3.24264               
+   333 obstacle_cst[7,2,6]
+                             994.888            -1               
+   334 obstacle_cst[7,2,7]
+                             1002.27       2.41421               
+   335 obstacle_cst[7,2,8]
+                             8.32896             5               
+   336 obstacle_cst[8,1,1]
+                             12.0208       8.36396               
+   337 obstacle_cst[8,1,2]
+                                   8             6               
+   338 obstacle_cst[8,1,3]
+                             999.293       1.29289               
+   339 obstacle_cst[8,1,4]
+                                 991            -3               
+   340 obstacle_cst[8,1,5]
+                             987.979      -4.36396               
+   341 obstacle_cst[8,1,6]
+                                 992            -2               
+   342 obstacle_cst[8,1,7]
+                             1000.71       2.70711               
+   343 obstacle_cst[8,1,8]
+                                   9             7               
+   344 obstacle_cst[8,2,1]
+                             12.0208       5.24264               
+   345 obstacle_cst[8,2,2]
+                                   8             3               
+   346 obstacle_cst[8,2,3]
+                             999.293     -0.414214               
+   347 obstacle_cst[8,2,4]
+                                 991            -3               
+   348 obstacle_cst[8,2,5]
+                             987.979      -3.24264               
+   349 obstacle_cst[8,2,6]
+                                 992            -1               
+   350 obstacle_cst[8,2,7]
+                             1000.71       2.41421               
+   351 obstacle_cst[8,2,8]
+                                   9             5               
+   352 obstacle_avoidance_logic[1,1]
+                                   5                           7 
+   353 obstacle_avoidance_logic[1,2]
+                                   4                           7 
+   354 obstacle_avoidance_logic[2,1]
+                                   6                           7 
+   355 obstacle_avoidance_logic[2,2]
+                                   7                           7 
+   356 obstacle_avoidance_logic[3,1]
+                                   7                           7 
+   357 obstacle_avoidance_logic[3,2]
+                                   7                           7 
+   358 obstacle_avoidance_logic[4,1]
+                                   7                           7 
+   359 obstacle_avoidance_logic[4,2]
+                                   6                           7 
+   360 obstacle_avoidance_logic[5,1]
+                                   7                           7 
+   361 obstacle_avoidance_logic[5,2]
+                                   5                           7 
+   362 obstacle_avoidance_logic[6,1]
+                                   7                           7 
+   363 obstacle_avoidance_logic[6,2]
+                                   5                           7 
+   364 obstacle_avoidance_logic[7,1]
+                                   6                           7 
+   365 obstacle_avoidance_logic[7,2]
+                                   5                           7 
+   366 obstacle_avoidance_logic[8,1]
+                                   5                           7 
+   367 obstacle_avoidance_logic[8,2]
+                                   5                           7 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 pos[1,1]                    0                             
+     2 pos[2,1]                    0                             
+     3 pos[1,2]             0.916988                             
+     4 pos[1,3]              1.37548                             
+     5 pos[1,4]              1.83398                             
+     6 pos[1,5]              2.29247                             
+     7 pos[1,6]              2.75096                             
+     8 pos[1,7]              5.11197                             
+     9 pos[1,8]                    8                             
+    10 pos[2,2]              4.24836                             
+    11 pos[2,3]              4.87254                             
+    12 pos[2,4]              5.49672                             
+    13 pos[2,5]               6.1209                             
+    14 pos[2,6]              6.74508                             
+    15 pos[2,7]              8.32896                             
+    16 pos[2,8]                    9                             
+    17 vel[1,1]                    0                             
+    18 vel[2,1]                    1                             
+    19 vel[1,2]             0.305663                             
+    20 vel[1,3]             0.305663                             
+    21 vel[1,4]             0.305663                             
+    22 vel[1,5]             0.305663                             
+    23 vel[1,6]             0.305663                             
+    24 vel[1,7]             0.481339                             
+    25 vel[1,8]             0.481339                             
+    26 vel[2,2]              0.41612                             
+    27 vel[2,3]              0.41612                             
+    28 vel[2,4]              0.41612                             
+    29 vel[2,5]              0.41612                             
+    30 vel[2,6]              0.41612                             
+    31 vel[2,7]              0.11184                             
+    32 vel[2,8]              0.11184                             
+    33 acc[1,1]            0.0509438                             
+    34 acc[1,2]                    0                             
+    35 acc[1,3]                    0                             
+    36 acc[1,4]                    0                             
+    37 acc[1,5]                    0                             
+    38 acc[1,6]            0.0292793                             
+    39 acc[1,7]                    0                             
+    40 acc[2,1]           -0.0973134                             
+    41 acc[2,2]                    0                             
+    42 acc[2,3]                    0                             
+    43 acc[2,4]                    0                             
+    44 acc[2,5]                    0                             
+    45 acc[2,6]           -0.0507132                             
+    46 acc[2,7]                    0                             
+    47 am[1]               0.0973134                             
+    48 am[2]                       0                             
+    49 am[3]                       0                             
+    50 am[4]                       0                             
+    51 am[5]                       0                             
+    52 am[6]               0.0507132                             
+    53 am[7]                       0                             
+    54 obs_avoid[1,1,1]
+                    *              1             0             1 
+    55 obs_avoid[1,1,2]
+                    *              1             0             1 
+    56 obs_avoid[1,1,3]
+                    *              1             0             1 
+    57 obs_avoid[1,1,4]
+                    *              0             0             1 
+    58 obs_avoid[1,1,5]
+                    *              0             0             1 
+    59 obs_avoid[1,1,6]
+                    *              0             0             1 
+    60 obs_avoid[1,1,7]
+                    *              1             0             1 
+    61 obs_avoid[1,1,8]
+                    *              1             0             1 
+    62 obs_avoid[1,2,1]
+                    *              1             0             1 
+    63 obs_avoid[1,2,2]
+                    *              1             0             1 
+    64 obs_avoid[1,2,3]
+                    *              0             0             1 
+    65 obs_avoid[1,2,4]
+                    *              0             0             1 
+    66 obs_avoid[1,2,5]
+                    *              0             0             1 
+    67 obs_avoid[1,2,6]
+                    *              0             0             1 
+    68 obs_avoid[1,2,7]
+                    *              1             0             1 
+    69 obs_avoid[1,2,8]
+                    *              1             0             1 
+    70 obs_avoid[2,1,1]
+                    *              1             0             1 
+    71 obs_avoid[2,1,2]
+                    *              1             0             1 
+    72 obs_avoid[2,1,3]
+                    *              1             0             1 
+    73 obs_avoid[2,1,4]
+                    *              1             0             1 
+    74 obs_avoid[2,1,5]
+                    *              0             0             1 
+    75 obs_avoid[2,1,6]
+                    *              0             0             1 
+    76 obs_avoid[2,1,7]
+                    *              1             0             1 
+    77 obs_avoid[2,1,8]
+                    *              1             0             1 
+    78 obs_avoid[2,2,1]
+                    *              1             0             1 
+    79 obs_avoid[2,2,2]
+                    *              1             0             1 
+    80 obs_avoid[2,2,3]
+                    *              1             0             1 
+    81 obs_avoid[2,2,4]
+                    *              1             0             1 
+    82 obs_avoid[2,2,5]
+                    *              1             0             1 
+    83 obs_avoid[2,2,6]
+                    *              0             0             1 
+    84 obs_avoid[2,2,7]
+                    *              1             0             1 
+    85 obs_avoid[2,2,8]
+                    *              1             0             1 
+    86 obs_avoid[3,1,1]
+                    *              1             0             1 
+    87 obs_avoid[3,1,2]
+                    *              1             0             1 
+    88 obs_avoid[3,1,3]
+                    *              1             0             1 
+    89 obs_avoid[3,1,4]
+                    *              1             0             1 
+    90 obs_avoid[3,1,5]
+                    *              1             0             1 
+    91 obs_avoid[3,1,6]
+                    *              0             0             1 
+    92 obs_avoid[3,1,7]
+                    *              1             0             1 
+    93 obs_avoid[3,1,8]
+                    *              1             0             1 
+    94 obs_avoid[3,2,1]
+                    *              1             0             1 
+    95 obs_avoid[3,2,2]
+                    *              1             0             1 
+    96 obs_avoid[3,2,3]
+                    *              1             0             1 
+    97 obs_avoid[3,2,4]
+                    *              1             0             1 
+    98 obs_avoid[3,2,5]
+                    *              1             0             1 
+    99 obs_avoid[3,2,6]
+                    *              1             0             1 
+   100 obs_avoid[3,2,7]
+                    *              0             0             1 
+   101 obs_avoid[3,2,8]
+                    *              1             0             1 
+   102 obs_avoid[4,1,1]
+                    *              1             0             1 
+   103 obs_avoid[4,1,2]
+                    *              1             0             1 
+   104 obs_avoid[4,1,3]
+                    *              1             0             1 
+   105 obs_avoid[4,1,4]
+                    *              1             0             1 
+   106 obs_avoid[4,1,5]
+                    *              1             0             1 
+   107 obs_avoid[4,1,6]
+                    *              0             0             1 
+   108 obs_avoid[4,1,7]
+                    *              1             0             1 
+   109 obs_avoid[4,1,8]
+                    *              1             0             1 
+   110 obs_avoid[4,2,1]
+                    *              1             0             1 
+   111 obs_avoid[4,2,2]
+                    *              1             0             1 
+   112 obs_avoid[4,2,3]
+                    *              1             0             1 
+   113 obs_avoid[4,2,4]
+                    *              1             0             1 
+   114 obs_avoid[4,2,5]
+                    *              1             0             1 
+   115 obs_avoid[4,2,6]
+                    *              1             0             1 
+   116 obs_avoid[4,2,7]
+                    *              0             0             1 
+   117 obs_avoid[4,2,8]
+                    *              0             0             1 
+   118 obs_avoid[5,1,1]
+                    *              1             0             1 
+   119 obs_avoid[5,1,2]
+                    *              1             0             1 
+   120 obs_avoid[5,1,3]
+                    *              1             0             1 
+   121 obs_avoid[5,1,4]
+                    *              1             0             1 
+   122 obs_avoid[5,1,5]
+                    *              1             0             1 
+   123 obs_avoid[5,1,6]
+                    *              1             0             1 
+   124 obs_avoid[5,1,7]
+                    *              0             0             1 
+   125 obs_avoid[5,1,8]
+                    *              1             0             1 
+   126 obs_avoid[5,2,1]
+                    *              0             0             1 
+   127 obs_avoid[5,2,2]
+                    *              1             0             1 
+   128 obs_avoid[5,2,3]
+                    *              1             0             1 
+   129 obs_avoid[5,2,4]
+                    *              1             0             1 
+   130 obs_avoid[5,2,5]
+                    *              1             0             1 
+   131 obs_avoid[5,2,6]
+                    *              1             0             1 
+   132 obs_avoid[5,2,7]
+                    *              0             0             1 
+   133 obs_avoid[5,2,8]
+                    *              0             0             1 
+   134 obs_avoid[6,1,1]
+                    *              1             0             1 
+   135 obs_avoid[6,1,2]
+                    *              1             0             1 
+   136 obs_avoid[6,1,3]
+                    *              1             0             1 
+   137 obs_avoid[6,1,4]
+                    *              1             0             1 
+   138 obs_avoid[6,1,5]
+                    *              1             0             1 
+   139 obs_avoid[6,1,6]
+                    *              1             0             1 
+   140 obs_avoid[6,1,7]
+                    *              0             0             1 
+   141 obs_avoid[6,1,8]
+                    *              1             0             1 
+   142 obs_avoid[6,2,1]
+                    *              0             0             1 
+   143 obs_avoid[6,2,2]
+                    *              1             0             1 
+   144 obs_avoid[6,2,3]
+                    *              1             0             1 
+   145 obs_avoid[6,2,4]
+                    *              1             0             1 
+   146 obs_avoid[6,2,5]
+                    *              1             0             1 
+   147 obs_avoid[6,2,6]
+                    *              1             0             1 
+   148 obs_avoid[6,2,7]
+                    *              0             0             1 
+   149 obs_avoid[6,2,8]
+                    *              0             0             1 
+   150 obs_avoid[7,1,1]
+                    *              0             0             1 
+   151 obs_avoid[7,1,2]
+                    *              1             0             1 
+   152 obs_avoid[7,1,3]
+                    *              1             0             1 
+   153 obs_avoid[7,1,4]
+                    *              1             0             1 
+   154 obs_avoid[7,1,5]
+                    *              1             0             1 
+   155 obs_avoid[7,1,6]
+                    *              1             0             1 
+   156 obs_avoid[7,1,7]
+                    *              1             0             1 
+   157 obs_avoid[7,1,8]
+                    *              0             0             1 
+   158 obs_avoid[7,2,1]
+                    *              0             0             1 
+   159 obs_avoid[7,2,2]
+                    *              0             0             1 
+   160 obs_avoid[7,2,3]
+                    *              1             0             1 
+   161 obs_avoid[7,2,4]
+                    *              1             0             1 
+   162 obs_avoid[7,2,5]
+                    *              1             0             1 
+   163 obs_avoid[7,2,6]
+                    *              1             0             1 
+   164 obs_avoid[7,2,7]
+                    *              1             0             1 
+   165 obs_avoid[7,2,8]
+                    *              0             0             1 
+   166 obs_avoid[8,1,1]
+                    *              0             0             1 
+   167 obs_avoid[8,1,2]
+                    *              0             0             1 
+   168 obs_avoid[8,1,3]
+                    *              1             0             1 
+   169 obs_avoid[8,1,4]
+                    *              1             0             1 
+   170 obs_avoid[8,1,5]
+                    *              1             0             1 
+   171 obs_avoid[8,1,6]
+                    *              1             0             1 
+   172 obs_avoid[8,1,7]
+                    *              1             0             1 
+   173 obs_avoid[8,1,8]
+                    *              0             0             1 
+   174 obs_avoid[8,2,1]
+                    *              0             0             1 
+   175 obs_avoid[8,2,2]
+                    *              0             0             1 
+   176 obs_avoid[8,2,3]
+                    *              1             0             1 
+   177 obs_avoid[8,2,4]
+                    *              1             0             1 
+   178 obs_avoid[8,2,5]
+                    *              1             0             1 
+   179 obs_avoid[8,2,6]
+                    *              1             0             1 
+   180 obs_avoid[8,2,7]
+                    *              1             0             1 
+   181 obs_avoid[8,2,8]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 1.14e-13 on row 242
+        max.rel.err = 9.35e-17 on row 33
+        High quality
+
+KKT.PB: max.abs.err = 4.17e-14 on row 26
+        max.rel.err = 4.17e-14 on row 26
+        High quality
+
+End of output
