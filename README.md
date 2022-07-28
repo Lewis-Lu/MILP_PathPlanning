@@ -1,6 +1,9 @@
 # Path Planning Using Mixed Integer Linear Programming
 
 
+## UPDATED 2022/07/28
+## Before you fork and use this repo, please review the license which has already been attached. Please do not commit the plagiarism and inform me for the further use.
+
 
 This project focuses on the theme of path planning using MILP. I took this as my M.Sc. Dissertation project under supervision of Dr. Paul Trodden.
 
